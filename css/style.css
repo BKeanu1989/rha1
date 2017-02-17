@@ -1,0 +1,72 @@
+@charset "UTF-8";
+.right {
+  float: right; }
+
+.teaser-img > picture > img {
+  width: 100%; }
+
+.vertical .carousel-inner {
+  height: 100%; }
+
+.carousel.vertical .item {
+  -webkit-transition: 0.6s ease-in-out top;
+  transition: 0.6s ease-in-out top; }
+
+.carousel.vertical .active {
+  top: 0; }
+
+.carousel.vertical .next {
+  top: 400px; }
+
+.carousel.vertical .prev {
+  top: -400px; }
+
+.carousel.vertical .next.left,
+.carousel.vertical .prev.right {
+  top: 0; }
+
+.carousel.vertical .active.left {
+  top: -400px; }
+
+.carousel.vertical .active.right {
+  top: 400px; }
+
+.carousel.vertical .item {
+  left: 0; }
+
+.carousel-control {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  top: inherit; }
+
+.carousel-control.top {
+  top: 0; }
+
+.carousel-control.bottom  {
+  top: 100%;
+  right: 0;
+  left: auto; }
+
+@media (max-width: 375px) {
+  nav.navbar {
+    width: 375px;
+    position: absolute !important;
+    left: 0; }
+
+  .container .teaser-img {
+    margin-top: 52px;
+    margin-left: -15px; } }
+@media (min-width: 750px) and (max-width: 768px) {
+  nav.navbar {
+    width: 768px;
+    position: absolute !important;
+    left: 0; }
+
+  .container .teaser-img {
+    margin-top: 52px;
+    margin-left: -24px;
+    width: 768px; } }
+
+/*# sourceMappingURL=style.css.map */
